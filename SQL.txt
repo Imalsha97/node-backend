@@ -1,0 +1,4 @@
+A.select title from taks order by dateUpdated dese limit 5 where status="Completed";
+b.select * from tasks where title like '%manager%'; 
+c.update tasks set status="Completed" where status="Pending" || status="To do";
+d.select c.name from users u, country c where c.code=u.country_Code and count(u.id)>100; 
